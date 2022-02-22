@@ -1,0 +1,250 @@
+@font-face {
+	font-family: 'Montserrat';
+	src: url(/src/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+html {
+	font-size: 18px;
+}
+
+body {
+	font-family: Montserrat, serif;
+}
+
+#where-are-points {
+	#where-are-points-button {
+		background: linear-gradient(90deg, #4995CC 0%, #38B184 100%);
+		border-radius: 8px;
+		color: #fff;
+		width: 291px;
+		height: 56px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-decoration: none;
+		font-size: 20px;
+		line-height: 150%;
+		font-weight: 600;
+	}
+}
+
+
+#how-to-find {
+	#how-to-find-button {
+		background: linear-gradient(90deg, #4995CC 0%, #38B184 100%);
+		border-radius: 100px;
+		color: #fff;
+		width: 292px;
+		height: 56px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-decoration-line: underline;
+		font-size: 20px;
+		line-height: 150%;
+		font-weight: 600;
+	}
+
+	#how-to-find-img {
+		max-height: 128px;
+		max-width: 184px;
+	}
+}
+
+footer {
+	background-color: #fff;
+	width: 100%;
+	height: 200px;
+}
+
+.text-mb {
+	p {
+		margin-bottom: 0;
+	}
+}
+
+section > .container-fluid > .container {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#how-it-works-1 {
+	width: 76px;
+	height: 69px;
+}
+
+#how-it-works-2 {
+	width: 78px;
+	height: 59px;
+}
+
+#how-it-works-3 {
+	width: 76px;
+	height: 78px;
+}
+
+#how-to-issue-1 {
+	width: 76px;
+	height: 69.03px;
+}
+
+#how-to-issue-2 {
+	width: 76px;
+	height: 75px;
+}
+
+
+#number-2 {
+	width: 184.75px;
+	height: 175px;
+}
+
+.how-to-issue-col {
+	min-height: 75px;
+}
+
+#footer-img {
+	max-width: 508px;
+	max-height: 375px;
+}
+
+#advantages .advantage-img-container #advantage-img-1 {
+	height: 176px;
+}
+
+#advantages .advantage-img-container #advantage-img-2 {
+	height: 159px;
+}
+
+#advantages .advantage-img-container #advantage-img-3 {
+	height: 153px;
+}
+
+#certificate-second-block {
+	ul {
+		list-style: none;
+		padding: 0;
+		li {
+			padding-left: 30px;
+			&:before {
+				content: '•';
+				margin-left: -20px;
+				margin-right: 15px;
+			}
+		}
+	}
+}
+#how-to-issue {
+	ul {
+		list-style: none;
+		padding: 0;
+		li {
+			padding-left: 30px;
+			&:before {
+				content: '•';
+				margin-left: -20px;
+				margin-right: 15px;
+			}
+		}
+	}
+}
+@media (min-width: 1440px){
+
+	section > .container-fluid > .container {
+		max-width: 1440px;
+		padding-left: 196px;
+		padding-right: 196px;
+	}
+
+	#advantages .advantage-img-container {
+		min-height: 166px;
+	}
+
+	#advantages .advantage-img-container #advantage-img-1 {
+		height: 166px;
+	}
+
+	#advantages .advantage-img-container #advantage-img-2 {
+		height: 149px;
+	}
+
+	#advantages .advantage-img-container #advantage-img-3 {
+		height: 144px;
+	}
+}
+@media (max-width: 768px){
+	html {
+		font-size: 16px;
+	}
+
+	.text-mb {
+		p {
+			margin-bottom: 1rem;
+		}
+	}
+
+
+	.img-90 {
+		height: 90px;
+	}
+
+	.img-120 {
+		height: 120px;
+	}
+
+
+
+	#where-are-points {
+		#where-are-points-button {
+			width: 332px;
+		}
+	}
+
+	.fs-24 {
+		font-size: 1.125rem;
+	}
+
+	#how-it-works-1 {
+		width: 120px;
+		height: 109px;
+	}
+
+	#how-it-works-2 {
+		width: 120px;
+		height: 90px;
+	}
+
+	#how-it-works-3 {
+		width: 120px;
+		height: 124px;
+	}
+
+	#how-to-issue-1 {
+		width: 120px;
+		height: 109px;
+	}
+
+	#how-to-issue-2 {
+		width: 120px;
+		height: 118px;
+	}
+}
+
+@media (max-width: 500px){
+
+	.img-90 {
+		height: 120px;
+	}
+
+ 	#number-2 {
+		width: 196px;
+		height: 182.4px;
+	}
+
+
+	.fs-xs-18 {
+		font-size: 18px;
+	}
+
+
+}

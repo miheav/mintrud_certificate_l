@@ -1,0 +1,12 @@
+/public/asset/*
+/public/pic/
+/public/index.html
+/public/favicon.ico
+/node_modules
+/vendor/
+/.idea/
+
+.env
+.htaccess
+.htpasswd
+/test/http-client.private.env.json

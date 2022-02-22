@@ -1,0 +1,68 @@
+
+$enable-negative-margins: true;
+
+.mt-6 {
+  margin-top: 0 !important;
+}
+
+.fs-18-abs {
+  font: 18px;
+}
+
+.fs-20 {
+  font-size: 1.11rem;
+}
+
+.fs-20-abs {
+  font-size: 20px;
+}
+
+.fs-24 {
+  font-size: 1.333rem;
+}
+
+.green {
+  color: #029f34;
+}
+
+.green-2 {
+  color: #3BAF5F;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.bg-grey {
+  background-color: #ECECEC;
+}
+
+.lh-16 {
+  line-height: 160%;
+}
+
+.color-101010 {
+  color: #101010;
+}
+
+.color-000000 {
+  color: #000000;
+}
+
+.a {
+  color: #1874b8;
+  text-decoration: none;
+
+  &:hover {
+    color: #1874b8;
+  }
+}
+
+.line {
+  width: 100%;
+  border: 2px solid #ECECEC;
+}
+
+.fw-600 {
+  font-weight: 600 !important;
+}

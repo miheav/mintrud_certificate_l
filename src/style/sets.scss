@@ -21,6 +21,10 @@ $enable-negative-margins: true;
   font-size: 1.333rem;
 }
 
+.fs-16-abs {
+  font-size: 16px;
+}
+
 .green {
   color: #029f34;
 }
@@ -37,6 +41,10 @@ $enable-negative-margins: true;
   background-color: #ECECEC;
 }
 
+.bg-light-green {
+  background-color: #E0F4E8;
+}
+
 .lh-16 {
   line-height: 160%;
 }
@@ -50,11 +58,11 @@ $enable-negative-margins: true;
 }
 
 .a {
-  color: #1874b8;
+  color: #3BAF5F;
   text-decoration: none;
 
   &:hover {
-    color: #1874b8;
+    color: #3BAF5F;
   }
 }
 
@@ -65,4 +73,8 @@ $enable-negative-margins: true;
 
 .fw-600 {
   font-weight: 600 !important;
+}
+
+.underline {
+  text-decoration-line: underline;
 }

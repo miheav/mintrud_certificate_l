@@ -11,17 +11,63 @@ body {
 	font-family: Montserrat, serif;
 }
 
+#certificate-first-block {
+
+	.first-block-arrow-container {
+		max-width: 50px;
+
+		img {
+			position: relative;
+		}
+
+		#first-block-arrow-2 {
+			top: 30px;
+		}
+
+		#first-block-arrow-3 {
+			top: 30px;
+		}
+
+		#first-block-arrow-4 {
+			top: 30px;
+		}
+
+		#first-block-arrow-5 {
+			top: 30px;
+		}
+
+		#first-block-arrow-5 {
+			top: 38px;
+		}
+
+		#first-block-arrow-6 {
+			top: 35px;
+		}
+	}
+
+	.first-block-arrow-empty-container {
+		max-width: 35px;
+	}
+
+	.light-green-container {
+		background-color: #E0F4E8;
+		padding: 12px 24px;
+	}
+}
+
+
+
 #where-are-points {
 	#where-are-points-button {
 		background: linear-gradient(90deg, #4995CC 0%, #38B184 100%);
-		border-radius: 8px;
+		border-radius: 50px;
 		color: #fff;
 		width: 291px;
 		height: 56px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		text-decoration: none;
+		text-decoration-line: underline;
 		font-size: 20px;
 		line-height: 150%;
 		font-weight: 600;
@@ -121,6 +167,18 @@ section > .container-fluid > .container {
 }
 
 #certificate-second-block {
+
+	.second-block-button {
+		width: 292px;
+		height: 80px;
+		background: linear-gradient(90deg, #4995CC 0%, #38B184 100%);
+		border-radius: 50px;
+		color: #fff;
+		text-decoration: none;
+	}
+}
+
+#citizens {
 	ul {
 		list-style: none;
 		padding: 0;
@@ -134,6 +192,7 @@ section > .container-fluid > .container {
 		}
 	}
 }
+
 #how-to-issue {
 	ul {
 		list-style: none;
@@ -156,7 +215,7 @@ section > .container-fluid > .container {
 		padding-right: 196px;
 	}
 
-	#advantages .advantage-img-container {
+	.advantage-img-container {
 		min-height: 166px;
 	}
 

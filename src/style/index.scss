@@ -232,6 +232,15 @@ section > .container-fluid > .container {
 	}
 }
 @media (max-width: 768px){
+
+	#certificate-first-block {
+
+		.light-green-container {
+			max-width: 95%;
+			padding: 12px 14px 12px 0;
+		}
+	}
+
 	html {
 		font-size: 16px;
 	}
@@ -286,6 +295,19 @@ section > .container-fluid > .container {
 	#how-to-issue-2 {
 		width: 120px;
 		height: 118px;
+	}
+
+	#certificate-second-block {
+
+		.second-block-button {
+			width: 332px;
+		}
+	}
+
+	#how-to-find {
+		#how-to-find-button {
+			width: 332px;
+		}
 	}
 }
 
